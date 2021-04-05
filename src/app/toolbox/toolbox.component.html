@@ -1,0 +1,113 @@
+<div class="container-fluid">
+    <div class="row">
+
+
+        <div class="col-sm-4">
+            <button class="btn2" mat-raised-button >TOOLBOX</button>
+            <br>
+            <button class="btn2" mat-raised-button >EXAMPLES</button>
+            <br>
+            <button class="btn2" mat-raised-button >ADDITIVES</button>
+        </div>
+
+        <div class="col">
+            <div class="globe">
+                <img src="assets\images\unnamed.png" class="card-img-top" alt="...">
+                <br>
+                <br>
+                <p class="card-text">Click on a Climate Zone on the map, enter a search term for the full text search or browse through the documents for the selected categories.</p>
+            
+            </div>
+            
+        </div>
+
+        <div class="col">
+             <h4 class="header1"><strong>FILTER</strong></h4>
+            <mat-accordion>
+                <mat-expansion-panel class="mat-exp-panel" (opened)="panelOpenState = true"
+                                     (closed)="panelOpenState = false">
+                  <mat-expansion-panel-header class="mat-header">
+                    <mat-panel-title class="mat-p-title">
+                      CLIMATE ZONE
+                    </mat-panel-title>
+                  </mat-expansion-panel-header>
+                    <mat-checkbox class="mat-checkbox">All</mat-checkbox><br>
+                    <mat-checkbox class="mat-checkbox">Pollar/Sub Pollar</mat-checkbox><br>
+                    <mat-checkbox class="mat-checkbox">Temperate</mat-checkbox><br>
+                    <mat-checkbox class="mat-checkbox">Subtropical</mat-checkbox><br>
+                    <mat-checkbox class="mat-checkbox">Tropical</mat-checkbox><br>
+                  
+                </mat-expansion-panel>
+        
+        
+                <mat-expansion-panel class="mat-exp-panel" (opened)="panelOpenState = true"
+                (closed)="panelOpenState = false">
+                 <mat-expansion-panel-header class="mat-header">
+                    <mat-panel-title class="mat-p-title">
+                        PARAMETERS
+                 </mat-panel-title>
+                    </mat-expansion-panel-header>
+                        <mat-checkbox class="mat-checkbox">All</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Ventilation</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Shading</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Thermal Mass</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Building Envelope</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Building Volumn</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Plan Form</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Selectional Form</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Utilities</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Culture</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Vegetation</mat-checkbox><br>
+        
+                </mat-expansion-panel>
+                <mat-expansion-panel class="mat-exp-panel" (opened)="panelOpenState = true"
+                (closed)="panelOpenState = false">
+                 <mat-expansion-panel-header class="mat-header">
+                    <mat-panel-title class="mat-p-title">
+                         MATERIAL
+                     </mat-panel-title>
+                 </mat-expansion-panel-header>
+                        <mat-checkbox class="mat-checkbox">All</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Wood</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Bamboo</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Brick</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Clay</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Stone</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Steel</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Glass</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Concrete</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Recycled</mat-checkbox><br>
+        
+                </mat-expansion-panel>
+        
+        
+                <mat-expansion-panel class="mat-exp-panel" (opened)="panelOpenState = true"
+                                     (closed)="panelOpenState = false">
+                  <mat-expansion-panel-header class="mat-header">
+                    <mat-panel-title class="mat-p-title">
+                      ENERGY STRATEGY   
+                    </mat-panel-title>
+                  </mat-expansion-panel-header>
+                    <mat-checkbox class="mat-checkbox">All</mat-checkbox><br>
+                    <mat-checkbox class="mat-checkbox">Active</mat-checkbox><br>
+                    <mat-checkbox class="mat-checkbox">Passive</mat-checkbox><br>
+                    
+                </mat-expansion-panel>
+                </mat-accordion>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        
+    </div>
+</div>
+
+
+

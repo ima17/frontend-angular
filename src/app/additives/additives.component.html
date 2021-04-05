@@ -1,0 +1,78 @@
+<div class="container-fluid">
+    <div class="row">
+
+
+        <div class="col-sm-4">
+            <button class="btn2" mat-raised-button >TOOLBOX</button>
+            <br>
+            <button class="btn2" mat-raised-button >EXAMPLES</button>
+            <br>
+            <button class="btn2" mat-raised-button >ADDITIVES</button>
+        </div>
+
+        <div class="col">
+            <div class="globe">
+                <img src="assets\images\unnamed.png" class="card-img-top" alt="...">
+                <br>
+                <br>
+                <p class="card-text">Click on a Climate Zone on the map, enter a search term for the full text search or browse through the documents for the selected categories.</p>
+            
+            </div>
+            
+        </div>
+
+        <div class="col">
+             <h4 class="header1"><strong>FILTER</strong></h4>
+            <mat-accordion>
+                <mat-expansion-panel class="mat-exp-panel" (opened)="panelOpenState = true"
+                                     (closed)="panelOpenState = false">
+                  <mat-expansion-panel-header class="mat-header">
+                    <mat-panel-title class="mat-p-title">
+                      PROGRAMMES
+                    </mat-panel-title>
+                  </mat-expansion-panel-header>
+                    <mat-checkbox class="mat-checkbox">All</mat-checkbox><br>
+                    <mat-checkbox class="mat-checkbox">Flow Analysis</mat-checkbox><br>
+                    <mat-checkbox class="mat-checkbox">Temperate Profile</mat-checkbox><br>
+                    <mat-checkbox class="mat-checkbox">Sun Course</mat-checkbox><br>
+                    <mat-checkbox class="mat-checkbox">Climate Information</mat-checkbox><br>
+                  
+                </mat-expansion-panel>
+        
+        
+                <mat-expansion-panel class="mat-exp-panel" (opened)="panelOpenState = true"
+                (closed)="panelOpenState = false">
+                 <mat-expansion-panel-header class="mat-header">
+                    <mat-panel-title class="mat-p-title">
+                        MODE OF INFORMATION
+                 </mat-panel-title>
+                    </mat-expansion-panel-header>
+                        <mat-checkbox class="mat-checkbox">All</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Tutorials</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Current Information</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Download Links</mat-checkbox><br>
+                        <mat-checkbox class="mat-checkbox">Fact Sheets</mat-checkbox><br>
+                        
+                        
+        
+                </mat-expansion-panel>
+               
+        
+                
+                </mat-accordion>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        
+    </div>
+</div>
+
+

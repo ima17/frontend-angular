@@ -1,0 +1,75 @@
+.container{
+    color: grey;
+}
+
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+.about{
+    text-align: justify;
+    font-weight:400;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+
+.card{
+    margin-top: 20px;
+    align-content:right;
+    color: white;
+  
+
+    
+}
+
+.card:hover
+{
+	transform: scale(1.1);
+}
+
+.card-title{
+    text-align: center;
+}
+
+#card1{
+    background-color:green;
+    width: 170px;
+    height: 170px;
+    margin-right: 40px;
+    margin-left: 70px;
+    
+   
+}
+
+#card1-2{
+    color:green;
+    width: 140px;
+    height: 100px;
+}
+
+#card2{
+    background-color:orange;
+    width: 170px;
+    height: 170px;
+    margin-right: 40px;
+}
+
+#card2-2{
+    color:orange;
+    width: 140px;
+    height: 100px;
+}
+
+#card3{
+    background-color:red;
+    width: 170px;
+    height: 170px;
+}
+
+#card3-2{
+    color:red;
+    width: 140px;
+    height: 100px;
+}
+

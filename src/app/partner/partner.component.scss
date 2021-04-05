@@ -1,0 +1,39 @@
+.conatiner{
+    color: gray;
+}
+
+.btn{
+    margin-left: 630px;
+    width: 100px;
+    height: 30px;
+    background-color: green;
+}
+
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(10, 126, 30);
+}
+
+
+.contact-header{
+    color: gray;
+    margin-top: 40px;
+    font-weight: 600;
+  
+
+}
+
+.details{
+    color: gray;
+    text-align: justify;
+
+}
+
+.form-group{
+    color: gray;
+}
+
+.label{
+    font-weight: 600;
+}
