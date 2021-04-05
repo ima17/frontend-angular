@@ -19,6 +19,7 @@ import { ToolboxComponent } from './toolbox/toolbox.component';
 import { AdditivesComponent } from './additives/additives.component';
 import { ExamplesComponent } from './examples/examples.component';
 import { PartnerComponent } from './partner/partner.component';
+import { StartdiscussionComponent } from './startdiscussion/startdiscussion.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { PartnerComponent } from './partner/partner.component';
     ToolboxComponent,
     AdditivesComponent,
     ExamplesComponent,
-    PartnerComponent
+    PartnerComponent,
+    StartdiscussionComponent
   ],
   imports: [
     BrowserModule,
